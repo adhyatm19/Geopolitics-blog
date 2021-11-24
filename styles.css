@@ -1,0 +1,104 @@
+
+#nav ul{
+    list-style-type:none;
+}
+#nav li{
+    float: right;
+}
+#nav li a{
+    font-size: 24px;
+    margin-right: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#nav{
+    width: 70%;
+    height:10vh;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    background: url("https://i.pinimg.com/originals/ac/25/4e/ac254e3b47185dfc8accba22f06bbc38.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#beforenav{
+    width:70%;
+    height:55vh;
+    background: url("https://static.wixstatic.com/media/5473cf_8e78cd78175a492ea7025d2a98c9a433~mv2.gif");
+    display: block;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr{
+    width: 75%;
+}
+#video{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#news{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+#newsdiv{
+    height: 50vh;
+    background-color: blue;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news1{
+    background: rgb(241, 96, 254);
+    height: 50vh;
+    width: 23%;
+    margin: 0px 10px;
+    text-align: center;
+}
+.news2{
+    background: rgb(0, 145, 53);
+    height: 50vh;
+    width: 45%;
+    margin: 0px 10px;
+    text-align: center;
+}
+.news1:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 40px rgb(212, 0, 255);
+}
+.news2:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 40px rgb(212, 0, 255);
+}
+h1{
+    text-decoration: solid;
+}
+body{
+    background: linear-gradient(to top, rgb(245, 255, 55), rgb(255, 255, 255));
+}
+#Bilateral_relations div a{
+    font-size: large;
+    color: #005007;
+}
+#USA, #china, #pak{
+    font-size: larger;
+    color: rgb(44, 0, 89);
+}
+#nav li a:hover{
+    background: black;
+    color:rgb(255, 4, 0);
+}
